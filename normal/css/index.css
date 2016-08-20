@@ -1,0 +1,131 @@
+@import url(https://fonts.googleapis.com/css?family=Varela+Round);
+
+html
+{
+  font-size: 100%;
+}
+
+body
+{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+a
+{
+  text-decoration: none;
+}
+
+h1, h2, h3, h4
+{
+  font-family: 'Varela Round', sans-serif;
+}
+
+#header-bar
+{
+  position: relative;
+  z-index: -1;
+  height: 250px;
+  background-image:url('../images/header-bg.jpg');
+  background-position:center top;
+  background-repeat:no-repeat;
+  background-size:100% auto;
+  background-color: #000;
+}
+
+header h1
+{
+  font-size: 3.5rem;
+}
+
+#profile-wrap .profile-img img
+{
+  position: relative;
+  z-index: 1;
+  border: 4px solid #ffffff;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+}
+#profile-wrap
+{
+  margin-top: -100px;
+  /*background-color: #000;*/
+  color: #696969;
+}
+
+#main-wrap
+{
+  margin-top: 50px;
+}
+
+#content-wrap{
+  display: table;
+  width: 100%;
+  margin-top: 50px;
+  background-color: #323232;
+}
+
+.aboutme-btn a
+{
+  padding: 10px 50px 10px 50px;
+  font-size: 1.5rem;
+  color: #fff;
+  background-color: #000;
+  box-shadow:0px 0px 12px -2px #000;
+}
+
+#content-wrap h2
+{
+  font-size: 1.6rem;
+  color: #fff;
+}
+
+.skill-bar
+{
+  height: 30px;
+  width: 500px;
+  margin: 0 auto 20px auto;
+}
+
+.skill-bar-base
+{
+  float: right;
+  background-color: #fff;
+  height: 30px;
+  width: 100%;
+  border: 0px solid #fff;
+  border-radius: 8px;
+}
+
+.skill-bar-percent
+{
+  float: left;
+  background-color: #787878;
+  height: 30px;
+  border: 0px solid #787878;
+  border-radius: 6px;
+  width: 5%;
+}
+
+.skill-bar-name
+{
+  float:left;
+  position: absolute;
+  line-height: 30px;
+  margin-left: 10px;
+  color: #fff;
+  font-family: 'Varela Round', sans-serif;
+  font-size: 1.0rem;
+}
+
+/*#description
+{
+}
+
+  #discription.message-box
+  {
+    background-color: #fff;
+  }*/
