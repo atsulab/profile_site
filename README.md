@@ -1,3 +1,3 @@
 # Profile_site
-This is profile site for IT engineer.
+This is web template of profile site for IT engineer.
 It is "uncompleted". Please wait until it is completed.
