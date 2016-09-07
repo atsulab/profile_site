@@ -16,16 +16,6 @@ $(document).ready(function(){
   });
 });
 
-/*function SkillBarAnimation(){
-  $('.skill-bar[data-percent]').each(function(){
-    //var per = $('.skill-bar').attr('data-percent');
-    var per = $(this).attr('data-percent');
-    $('.skill-bar-percent').animate(
-    	{ width: per} , {duration: 4000, easing: 'swing' }
-    );
-  });
-}*/
-
 function SkillBarAnimation(){
   $('.skill-bar-percent[percent]').each(function(){
     //var per = $('.skill-bar').attr('data-percent');
@@ -35,25 +25,3 @@ function SkillBarAnimation(){
     );
   });
 }
-
-/*
-  $('.skill-bar[data-percent]').each(function () {
-    var progress = $(this);
-    var percentage = $(this).attr('data-percent');
-	   $('.skill-bar-percent').animate({'width': percentage}, {duration: 3000});
-  });
-*/
-
-    /*$({countNum: 0}).animate({countNum: percentage}, {
-      duration: 2000,
-      easing:'linear',
-      step: function() {
-      var pct = '';
-      if(percentage == 0){
-        pct = Math.floor(this.countNum) + '%';
-      }else{
-        pct = Math.floor(this.countNum+1) + '%';
-      }
-      progress.text(pct) && progress.siblings().children().css('width',pct);
-    }
-  });*/
